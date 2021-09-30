@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>東京都民でも解けない！！ #この駅は東京都何区クイズ</title>
+    <style>
+      body {
+        margin: 50px 30% 100px 30%;
+      }
+      img {
+        display: block;
+        margin: auto;
+        width: 400px;
+        border-radius: 10px;
+        /* background-color: #c5c5c5;
+        box-shadow: 0px 0px 50px #808080 ; */
+      }
+      h4 {
+        border-bottom: solid 5px #0f0;
+      }
+      h1 {
+        text-align: center;
+        font-size: 70px;
+      }
+      button {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 3px;
+        font-size: 15px;
+      }
+      #kekka1 {
+        margin-bottom: 50px;
+      }
+      #kekka2 {
+        margin-bottom: 50px;
+      }
+      #kekka3 {
+        margin-bottom: 50px;
+      }
+      #kekka4 {
+        margin-bottom: 50px;
+      }
+      #kekka5 {
+        margin-bottom: 50px;
+      }
+      #kekka6 {
+        margin-bottom: 50px;
+      }
+      #kekka7 {
+        margin-bottom: 50px;
+      }
+      #kekka8 {
+        margin-bottom: 50px;
+      }
+      #kekka9 {
+        margin-bottom: 50px;
+      }
+      #kekka10 {
+        margin-bottom: 30px;
+      }
+      #tensu {
+        font-size: 30px;
+        color: #00aaff;
+      }
+    </style>
+    <script>
+      'use strict';
+      var tensu = 0;
+
+      // 問題1
+      function ques11() {
+        document.getElementById("11").disabled = true;
+        document.getElementById("12").disabled = true;
+        document.getElementById("13").disabled = true;
+        document.getElementById("11").style.background = '#66CCFF';
+        document.getElementById("kekka1").style.background = '#eaeaea';
+        document.getElementById("kekka11").style.textDecoration = "underline";
+        document.getElementById("kekka11").style.textDecorationColor = '#66CCFF';
+        document.getElementById("kekka11").textContent = "正解！";
+        document.getElementById("kekka12").textContent = "正解は「千代田区」です！";
+        tensu += 1;
+      }
+      function ques12() {
+        document.getElementById("11").disabled = true;
+        document.getElementById("12").disabled = true;
+        document.getElementById("13").disabled = true;
+        document.getElementById("12").style.background = '#CC6666';
+        document.getElementById("kekka1").style.background = '#eaeaea';
+        document.getElementById("kekka11").style.textDecoration = "underline";
+        document.getElementById("kekka11").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka11").textContent = "不正解！";
+        document.getElementById("kekka12").textContent = "正解は「千代田区」です！";
+      }
+      function ques13() {
+        document.getElementById("11").disabled = true;
+        document.getElementById("12").disabled = true;
+        document.getElementById("13").disabled = true;
+        document.getElementById("13").style.background = '#CC6666';
+        document.getElementById("kekka1").style.background = '#eaeaea';
+        document.getElementById("kekka11").style.textDecoration = "underline";
+        document.getElementById("kekka11").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka11").textContent = "不正解！";
+        document.getElementById("kekka12").textContent = "正解は「千代田区」です！";
+      }
+
+      // 問題2
+      function ques21() {
+        document.getElementById("21").disabled = true;
+        document.getElementById("22").disabled = true;
+        document.getElementById("23").disabled = true;
+        document.getElementById("21").style.background = '#CC6666';
+        document.getElementById("kekka2").style.background = '#eaeaea';
+        document.getElementById("kekka21").style.textDecoration = "underline";
+        document.getElementById("kekka21").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka21").textContent = "不正解！";
+        document.getElementById("kekka22").textContent = "正解は「港区」です！";
+      }
+      function ques22() {
+        document.getElementById("21").disabled = true;
+        document.getElementById("22").disabled = true;
+        document.getElementById("23").disabled = true;
+        document.getElementById("22").style.background = '#66CCFF';
+        document.getElementById("kekka2").style.background = '#eaeaea';
+        document.getElementById("kekka21").style.textDecoration = "underline";
+        document.getElementById("kekka21").style.textDecorationColor = '#66CCFF';
+        document.getElementById("kekka21").textContent = "正解！";
+        document.getElementById("kekka22").textContent = "正解は「港区」です！";
+        tensu += 1;
+      }
+      function ques23() {
+        document.getElementById("21").disabled = true;
+        document.getElementById("22").disabled = true;
+        document.getElementById("23").disabled = true;
+        document.getElementById("23").style.background = '#CC6666';
+        document.getElementById("kekka2").style.background = '#eaeaea';
+        document.getElementById("kekka21").style.textDecoration = "underline";
+        document.getElementById("kekka21").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka21").textContent = "不正解！";
+        document.getElementById("kekka22").textContent = "正解は「港区」です！";
+      }
+
+      // 問題3
+      function ques31() {
+        document.getElementById("31").disabled = true;
+        document.getElementById("32").disabled = true;
+        document.getElementById("33").disabled = true;
+        document.getElementById("31").style.background = '#CC6666';
+        document.getElementById("kekka3").style.background = '#eaeaea';
+        document.getElementById("kekka31").style.textDecoration = "underline";
+        document.getElementById("kekka31").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka31").textContent = "不正解！";
+        document.getElementById("kekka32").textContent = "正解は「豊島区」です！";
+      }
+      function ques32() {
+        document.getElementById("31").disabled = true;
+        document.getElementById("32").disabled = true;
+        document.getElementById("33").disabled = true;
+        document.getElementById("32").style.background = '#66CCFF';
+        document.getElementById("kekka3").style.background = '#eaeaea';
+        document.getElementById("kekka31").style.textDecoration = "underline";
+        document.getElementById("kekka31").style.textDecorationColor = '#66CCFF';
+        document.getElementById("kekka31").textContent = "正解！";
+        document.getElementById("kekka32").textContent = "正解は「豊島区」です！";
+        tensu += 1;
+      }
+      function ques33() {
+        document.getElementById("31").disabled = true;
+        document.getElementById("32").disabled = true;
+        document.getElementById("33").disabled = true;
+        document.getElementById("33").style.background = '#CC6666';
+        document.getElementById("kekka3").style.background = '#eaeaea';
+        document.getElementById("kekka31").style.textDecoration = "underline";
+        document.getElementById("kekka31").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka31").textContent = "不正解！";
+        document.getElementById("kekka32").textContent = "正解は「豊島区」です！";
+      }
+
+      // 問題4
+      function ques41() {
+        document.getElementById("41").disabled = true;
+        document.getElementById("42").disabled = true;
+        document.getElementById("43").disabled = true;
+        document.getElementById("41").style.background = '#CC6666';
+        document.getElementById("kekka4").style.background = '#eaeaea';
+        document.getElementById("kekka41").style.textDecoration = "underline";
+        document.getElementById("kekka41").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka41").textContent = "不正解！";
+        document.getElementById("kekka42").textContent = "正解は「台東区」です！";
+      }
+      function ques42() {
+        document.getElementById("41").disabled = true;
+        document.getElementById("42").disabled = true;
+        document.getElementById("43").disabled = true;
+        document.getElementById("42").style.background = '#66CCFF';
+        document.getElementById("kekka4").style.background = '#eaeaea';
+        document.getElementById("kekka41").style.textDecoration = "underline";
+        document.getElementById("kekka41").style.textDecorationColor = '#66CCFF';
+        document.getElementById("kekka41").textContent = "正解！";
+        document.getElementById("kekka42").textContent = "正解は「台東区」です！";
+        tensu += 1;
+      }
+      function ques43() {
+        document.getElementById("41").disabled = true;
+        document.getElementById("42").disabled = true;
+        document.getElementById("43").disabled = true;
+        document.getElementById("43").style.background = '#CC6666';
+        document.getElementById("kekka4").style.background = '#eaeaea';
+        document.getElementById("kekka41").style.textDecoration = "underline";
+        document.getElementById("kekka41").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka41").textContent = "不正解！";
+        document.getElementById("kekka42").textContent = "正解は「台東区」です！";
+      }
+
+      // 問題5
+      function ques51() {
+        document.getElementById("51").disabled = true;
+        document.getElementById("52").disabled = true;
+        document.getElementById("53").disabled = true;
+        document.getElementById("51").style.background = '#66CCFF';
+        document.getElementById("kekka5").style.background = '#eaeaea';
+        document.getElementById("kekka51").style.textDecoration = "underline";
+        document.getElementById("kekka51").style.textDecorationColor = '#66CCFF';
+        document.getElementById("kekka51").textContent = "正解！";
+        document.getElementById("kekka52").textContent = "正解は「荒川区」です！";
+        tensu += 1;
+      }
+      function ques52() {
+        document.getElementById("51").disabled = true;
+        document.getElementById("52").disabled = true;
+        document.getElementById("53").disabled = true;
+        document.getElementById("52").style.background = '#CC6666';
+        document.getElementById("kekka5").style.background = '#eaeaea';
+        document.getElementById("kekka51").style.textDecoration = "underline";
+        document.getElementById("kekka51").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka51").textContent = "不正解！";
+        document.getElementById("kekka52").textContent = "正解は「荒川区」です！";
+      }
+      function ques53() {
+        document.getElementById("51").disabled = true;
+        document.getElementById("52").disabled = true;
+        document.getElementById("53").disabled = true;
+        document.getElementById("53").style.background = '#CC6666'; 
+        document.getElementById("kekka5").style.background = '#eaeaea';
+        document.getElementById("kekka51").style.textDecoration = "underline";
+        document.getElementById("kekka51").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka51").textContent = "不正解！";
+        document.getElementById("kekka52").textContent = "正解は「荒川区」です！";
+      }
+
+       // 問題6
+       function ques61() {
+        document.getElementById("61").disabled = true;
+        document.getElementById("62").disabled = true;
+        document.getElementById("63").disabled = true;
+        document.getElementById("61").style.background = '#66CCFF';
+        document.getElementById("kekka6").style.background = '#eaeaea';
+        document.getElementById("kekka61").style.textDecoration = "underline";
+        document.getElementById("kekka61").style.textDecorationColor = '#66CCFF';
+        document.getElementById("kekka61").textContent = "正解！";
+        document.getElementById("kekka62").textContent = "正解は「北区」です！";
+        tensu += 1;
+      }
+      function ques62() {
+        document.getElementById("61").disabled = true;
+        document.getElementById("62").disabled = true;
+        document.getElementById("63").disabled = true;
+        document.getElementById("62").style.background = '#CC6666';
+        document.getElementById("kekka6").style.background = '#eaeaea';
+        document.getElementById("kekka61").style.textDecoration = "underline";
+        document.getElementById("kekka61").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka61").textContent = "不正解！";
+        document.getElementById("kekka62").textContent = "正解は「北区」です！";
+      }
+      function ques63() {
+        document.getElementById("61").disabled = true;
+        document.getElementById("62").disabled = true;
+        document.getElementById("63").disabled = true;
+        document.getElementById("63").style.background = '#CC6666';
+        document.getElementById("kekka6").style.background = '#eaeaea';
+        document.getElementById("kekka61").style.textDecoration = "underline";
+        document.getElementById("kekka61").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka61").textContent = "不正解！";
+        document.getElementById("kekka62").textContent = "正解は「北区」です！";
+      }
+
+      // 問題7
+      function ques71() {
+        document.getElementById("71").disabled = true;
+        document.getElementById("72").disabled = true;
+        document.getElementById("73").disabled = true;
+        document.getElementById("71").style.background = '#CC6666';
+        document.getElementById("kekka7").style.background = '#eaeaea';
+        document.getElementById("kekka71").style.textDecoration = "underline";
+        document.getElementById("kekka71").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka71").textContent = "不正解！";
+        document.getElementById("kekka72").textContent = "正解は「港区」です！";
+      }
+      function ques72() {
+        document.getElementById("71").disabled = true;
+        document.getElementById("72").disabled = true;
+        document.getElementById("73").disabled = true;
+        document.getElementById("72").style.background = '#CC6666';
+        document.getElementById("kekka7").style.background = '#eaeaea';
+        document.getElementById("kekka71").style.textDecoration = "underline";
+        document.getElementById("kekka71").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka71").textContent = "不正解！";
+        document.getElementById("kekka72").textContent = "正解は「港区」です！";
+      }
+      function ques73() {
+        document.getElementById("71").disabled = true;
+        document.getElementById("72").disabled = true;
+        document.getElementById("73").disabled = true;
+        document.getElementById("73").style.background = '#66CCFF';
+        document.getElementById("kekka7").style.background = '#eaeaea';
+        document.getElementById("kekka71").style.textDecoration = "underline";
+        document.getElementById("kekka71").style.textDecorationColor = '#66CCFF';
+        document.getElementById("kekka71").textContent = "正解！";
+        document.getElementById("kekka72").textContent = "正解は「港区」です！";
+        tensu += 1;
+      }
+
+       // 問題8
+       function ques81() {
+        document.getElementById("81").disabled = true;
+        document.getElementById("82").disabled = true;
+        document.getElementById("83").disabled = true;
+        document.getElementById("81").style.background = '#CC6666';
+        document.getElementById("kekka8").style.background = '#eaeaea';
+        document.getElementById("kekka81").style.textDecoration = "underline";
+        document.getElementById("kekka81").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka81").textContent = "不正解！";
+        document.getElementById("kekka82").textContent = "正解は「江東区」です！";
+      }
+      function ques82() {
+        document.getElementById("81").disabled = true;
+        document.getElementById("82").disabled = true;
+        document.getElementById("83").disabled = true;
+        document.getElementById("82").style.background = '#CC6666';
+        document.getElementById("kekka8").style.background = '#eaeaea';
+        document.getElementById("kekka81").style.textDecoration = "underline";
+        document.getElementById("kekka81").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka81").textContent = "不正解！";
+        document.getElementById("kekka82").textContent = "正解は「江東区」です！";
+      }
+      function ques83() {
+        document.getElementById("81").disabled = true;
+        document.getElementById("82").disabled = true;
+        document.getElementById("83").disabled = true;
+        document.getElementById("83").style.background = '#66CCFF';
+        document.getElementById("kekka8").style.background = '#eaeaea';
+        document.getElementById("kekka81").style.textDecoration = "underline";
+        document.getElementById("kekka81").style.textDecorationColor = '#66CCFF';
+        document.getElementById("kekka81").textContent = "正解！";
+        document.getElementById("kekka82").textContent = "正解は「江東区」です！";
+        tensu += 1;
+      }
+      
+      // 問題9
+      function ques91() {
+        document.getElementById("91").disabled = true;
+        document.getElementById("92").disabled = true;
+        document.getElementById("93").disabled = true;
+        document.getElementById("91").style.background = '#CC6666';
+        document.getElementById("kekka9").style.background = '#eaeaea';
+        document.getElementById("kekka91").style.textDecoration = "underline";
+        document.getElementById("kekka91").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka91").textContent = "不正解！";
+        document.getElementById("kekka92").textContent = "正解は「港区」です！";
+      }
+      function ques92() {
+        document.getElementById("91").disabled = true;
+        document.getElementById("92").disabled = true;
+        document.getElementById("93").disabled = true;
+        document.getElementById("92").style.background = '#66CCFF';
+        document.getElementById("kekka9").style.background = '#eaeaea';
+        document.getElementById("kekka91").style.textDecoration = "underline";
+        document.getElementById("kekka91").style.textDecorationColor = '#66CCFF';
+        document.getElementById("kekka91").textContent = "正解！";
+        document.getElementById("kekka92").textContent = "正解は「港区」です！";
+        tensu += 1;
+      }
+      function ques93() {
+        document.getElementById("91").disabled = true;
+        document.getElementById("92").disabled = true;
+        document.getElementById("93").disabled = true;
+        document.getElementById("93").style.background = '#CC6666';
+        document.getElementById("kekka9").style.background = '#eaeaea';
+        document.getElementById("kekka91").style.textDecoration = "underline";
+        document.getElementById("kekka91").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka91").textContent = "不正解！";
+        document.getElementById("kekka92").textContent = "正解は「港区」です！";
+      }
+
+      // 問題10
+      function ques101() {
+        document.getElementById("101").disabled = true;
+        document.getElementById("102").disabled = true;
+        document.getElementById("103").disabled = true;
+        document.getElementById("101").style.background = '#CC6666';
+        document.getElementById("kekka10").style.background = '#eaeaea';
+        document.getElementById("kekka101").style.textDecoration = "underline";
+        document.getElementById("kekka101").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka101").textContent = "不正解！";
+        document.getElementById("kekka102").textContent = "正解は「杉並区」です！";
+        document.getElementById("ten").style.padding = "30px 40px 30px 40px";
+        document.getElementById("ten").style.border = "10px solid aqua";
+        document.getElementById("tensu").textContent = tensu + "/10点";
+        var kekaa0 = "";
+        switch(tensu) {
+            case 0:
+            kekaa0 = '東京偏差値30！あなたは東京に憧れているだけの地方出身者です！';
+            break;
+            case 1:
+            kekaa0 = '東京偏差値30！あなたは東京に憧れているだけの地方出身者です！';
+            break;
+            case 2:
+            kekaa0 = '東京偏差値30！あなたは東京に憧れているだけの地方出身者です！';
+            break;
+            case 3:
+            kekaa0 = '東京偏差値30！あなたは東京に憧れているだけの地方出身者です！';
+            break;
+            case 4:
+            kekaa0 = '東京偏差値30！あなたは東京に憧れているだけの地方出身者です！';
+            break;
+            case 5:
+            kekaa0 = '東京偏差値30！あなたは東京に憧れているだけの地方出身者です！';
+            break;
+            case 6:
+            kekaa0 = '東京偏差値50！あなたは上京して間もないエセ都民です！';break;
+            case 7:
+            kekaa0 = '東京偏差値50！あなたは上京して間もないエセ都民です！';break;
+            case 8:
+            kekaa0 = '東京偏差値50！あなたは上京して間もないエセ都民です！';break;
+            case 9:
+            kekaa0 = '東京偏差値70！あなたは生まれも育ちも東京の真の東京都民です！';
+            break;  
+            case 10:
+            kekaa0 = '東京偏差値70！あなたは生まれも育ちも東京の真の東京都民です！';
+            break;  
+        }
+        document.getElementById("kekka0").innerHTML = kekaa0;
+      }
+      function ques102() {
+        document.getElementById("101").disabled = true;
+        document.getElementById("102").disabled = true;
+        document.getElementById("103").disabled = true;
+        document.getElementById("102").style.background = '#CC6666';
+        document.getElementById("kekka10").style.background = '#eaeaea';
+        document.getElementById("kekka101").style.textDecoration = "underline";
+        document.getElementById("kekka101").style.textDecorationColor = '#CC6666';
+        document.getElementById("kekka101").textContent = "不正解！";
+        document.getElementById("kekka102").textContent = "正解は「杉並区」です！";
+        document.getElementById("ten").style.padding = "30px 40px 30px 40px";
+        document.getElementById("ten").style.border = "10px solid aqua";
+        document.getElementById("tensu").textContent = tensu + "/10点";
+        var kekaa0 = "";
+        switch(tensu) {
+            case 0:
+            kekaa0 = '東京偏差値30！あなたは東京に憧れているだけの地方出身者です！';
+            break;
+            case 1:
+            kekaa0 = '東京偏差値30！あなたは東京に憧れているだけの地方出身者です！';
+            break;
+            case 2:
+            kekaa0 = '東京偏差値30！あなたは東京に憧れているだけの地方出身者です！';
+            break;
+            case 3:
+            kekaa0 = '東京偏差値30！あなたは東京に憧れているだけの地方出身者です！';
+            break;
+            case 4:
+            kekaa0 = '東京偏差値30！あなたは東京に憧れているだけの地方出身者です！';
+            break;
+            case 5:
+            kekaa0 = '東京偏差値30！あなたは東京に憧れているだけの地方出身者です！';
+            break;
+            case 6:
+            kekaa0 = '東京偏差値50！あなたは上京して間もないエセ都民です！';break;
+            case 7:
+            kekaa0 = '東京偏差値50！あなたは上京して間もないエセ都民です！';break;
+            case 8:
+            kekaa0 = '東京偏差値50！あなたは上京して間もないエセ都民です！';break;
+            case 9:
+            kekaa0 = '東京偏差値70！あなたは生まれも育ちも東京の真の東京都民です！';
+            break;  
+            case 10:
+            kekaa0 = '東京偏差値70！あなたは生まれも育ちも東京の真の東京都民です！';
+            break;  
+        }
+        document.getElementById("kekka0").innerHTML = kekaa0;
+      }
+      function ques103() {
+        document.getElementById("101").disabled = true;
+        document.getElementById("102").disabled = true;
+        document.getElementById("103").disabled = true;
+        document.getElementById("103").style.background = '#66CCFF';
+        document.getElementById("kekka10").style.background = '#eaeaea';
+        document.getElementById("kekka101").style.textDecoration = "underline";
+        document.getElementById("kekka101").style.textDecorationColor = '#66CCFF';
+        document.getElementById("kekka101").textContent = "正解！";
+        document.getElementById("kekka102").textContent = "正解は「杉並区」です！";
+        document.getElementById("ten").style.padding = "30px 40px 30px 40px";
+        document.getElementById("ten").style.border = "10px solid aqua";
+        tensu += 1;
+        document.getElementById("tensu").textContent = tensu + "/10点";
+        var kekaa0 = "";
+        switch(tensu) {
+            case 0:
+            kekaa0 = '東京偏差値30！あなたは東京に憧れているだけの地方出身者です！';
+            break;
+            case 1:
+            kekaa0 = '東京偏差値30！あなたは東京に憧れているだけの地方出身者です！';
+            break;
+            case 2:
+            kekaa0 = '東京偏差値30！あなたは東京に憧れているだけの地方出身者です！';
+            break;
+            case 3:
+            kekaa0 = '東京偏差値30！あなたは東京に憧れているだけの地方出身者です！';
+            break;
+            case 4:
+            kekaa0 = '東京偏差値30！あなたは東京に憧れているだけの地方出身者です！';
+            break;
+            case 5:
+            kekaa0 = '東京偏差値30！あなたは東京に憧れているだけの地方出身者です！';
+            break;
+            case 6:
+            kekaa0 = '東京偏差値50！あなたは上京して間もないエセ都民です！';break;
+            case 7:
+            kekaa0 = '東京偏差値50！あなたは上京して間もないエセ都民です！';break;
+            case 8:
+            kekaa0 = '東京偏差値50！あなたは上京して間もないエセ都民です！';break;
+            case 9:
+            kekaa0 = '東京偏差値70！あなたは生まれも育ちも東京の真の東京都民です！';
+            break;  
+            case 10:
+            kekaa0 = '東京偏差値70！あなたは生まれも育ちも東京の真の東京都民です！';
+            break;  
+        }
+        document.getElementById("kekka0").innerHTML = kekaa0;
+      }
+
+    </script>
+  </head>
+  <body>
+    <h3 style="text-align: center;">東京都民でも解けない！！ #この駅は東京都何区クイズ</h3>
+    <p style="text-align: center;">
+      あなたは普段利用している東京の駅が何区にあるのかご存知ですか？意外と難しかったりするものです！
+    </p>
+    <br><br>
+    <img src="img/kuizu3.tokyosta.png">
+    <br><br><br><br>
+
+    <!-- 問題1 -->
+    <h4>1.この駅は東京都何区にある？</h4>
+    <br>
+    <h1>東京駅</h1>
+    <br>
+    <button onclick="ques11()" id="11" >千代田区</button> <br>
+    <button onclick="ques12()" id="12">中央区</button> <br>
+    <button onclick="ques13()" id="13">港区</button><br>
+    <p id="kekka1">
+      <b><span id="kekka11"></span></b>
+      <br>
+      <span id="kekka12"></span>
+    </p>
+
+    <!-- 問題2 -->
+      <h4>2.この駅は東京都何区にある？</h4>
+    <br>
+    <h1>品川駅</h1>
+    <br>
+    <button onclick="ques21()" id="21">中央区</button> <br>
+    <button onclick="ques22()" id="22">港区</button> <br>
+    <button onclick="ques23()" id="23">品川区</button><br>
+    <p id="kekka2">
+      <b><span id="kekka21"></span></b>
+      <br>
+      <span id="kekka22"></span>
+    </p>
+
+    <!-- 問題3 -->
+    <h4>3.この駅は東京都何区にある？</h4>
+    <br>
+    <h1>池袋駅</h1>
+    <br>
+    <button onclick="ques31()" id="31">新宿区</button> <br>
+    <button onclick="ques32()" id="32">豊島区</button> <br>
+    <button onclick="ques33()" id="33">文京区</button><br>
+    <p id="kekka3">
+      <b><span id="kekka31"></span></b>
+      <br>
+      <span id="kekka32"></span>
+    </p>
+
+    <!-- 問題4 -->
+    <h4>4.この駅は東京都何区にある？</h4>
+    <br>
+    <h1>浅草駅</h1>
+    <br>
+    <button onclick="ques41()" id="41">墨田区</button> <br>
+    <button onclick="ques42()" id="42">台東区</button> <br>
+    <button onclick="ques43()" id="43">荒川区</button><br>
+    <p id="kekka4">
+      <b><span id="kekka41"></span></b>
+      <br>
+      <span id="kekka42"></span>
+    </p>
+
+    <!-- 問題5 -->
+    <h4>5.この駅は東京都何区にある？</h4>
+    <br>
+    <h1>日暮里駅</h1>
+    <br>
+    <button onclick="ques51()" id="51">荒川区</button> <br>
+    <button onclick="ques52()" id="52">北区</button> <br>
+    <button onclick="ques53()" id="53">足立区</button><br>
+    <p id="kekka5">
+      <b><span id="kekka51"></span></b>
+      <br>
+      <span id="kekka52"></span>
+    </p>
+
+     <!-- 問題6 -->
+     <h4>6.この駅は東京都何区にある？</h4>
+     <br>
+     <h1>王子駅</h1>
+     <br>
+     <button onclick="ques61()" id="61">北区</button> <br>
+     <button onclick="ques62()" id="62">板橋区</button> <br>
+     <button onclick="ques63()" id="63">足立区</button><br>
+     <p id="kekka6">
+       <b><span id="kekka61"></span></b>
+       <br>
+       <span id="kekka62"></span>
+     </p>
+
+      <!-- 問題7 -->
+      <h4>7.この駅は東京都何区にある？</h4>
+      <br>
+      <h1>表参道駅</h1>
+      <br>
+      <button onclick="ques71()" id="71">品川区</button> <br>
+      <button onclick="ques72()" id="72">中央区</button> <br>
+      <button onclick="ques73()" id="73">港区</button><br>
+      <p id="kekka7">
+        <b><span id="kekka71"></span></b>
+        <br>
+        <span id="kekka72"></span>
+      </p>
+
+       <!-- 問題8 -->
+       <h4>8.この駅は東京都何区にある？</h4>
+       <br>
+       <h1>新木場駅</h1>
+       <br>
+       <button onclick="ques81()" id="81">江戸川区</button> <br>
+       <button onclick="ques82()" id="82">墨田区</button> <br>
+       <button onclick="ques83()" id="83">江東区</button><br>
+       <p id="kekka8">
+         <b><span id="kekka81"></span></b>
+         <br>
+         <span id="kekka82"></span>
+       </p>
+
+       <!-- 問題9 -->
+       <h4>9.この駅は東京都何区にある？</h4>
+       <br>
+       <h1>六本木駅</h1>
+       <br>
+       <button onclick="ques91()" id="91">品川区</button> <br>
+       <button onclick="ques92()" id="92">港区</button> <br>
+       <button onclick="ques93()" id="93">中央区</button><br>
+       <p id="kekka9">
+         <b><span id="kekka91"></span></b>
+         <br>
+         <span id="kekka92"></span>
+       </p>
+
+       <!-- 問題10 -->
+       <h4>10.この駅は東京都何区にある？</h4>
+       <br>
+       <h1>荻窪駅</h1>
+       <br>
+       <button onclick="ques101()" id="101">練馬区</button> <br>
+       <button onclick="ques102()" id="102">中野区</button> <br>
+       <button onclick="ques103()" id="103">杉並区</button><br>
+       <p id="kekka10">
+         <b><span id="kekka101"></span></b>
+         <br>
+         <span id="kekka102"></span>
+       </p>
+
+       <p id="ten">
+        <span id="tensu"></span>
+        <br>
+        <span id="kekka0"></span>
+       </p>
+   
+  </body>
+</html>
